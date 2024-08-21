@@ -1,0 +1,43 @@
+.layout {
+  display: flex;
+  position: relative;
+  height: 100%;
+  .layout-body {
+    height: 100%;
+    width: 100%;
+    font-family: "Source Sans Pro", sans-serif;
+    position: relative;
+    .content {
+      margin: 0 auto;
+      padding: 1rem;
+      width: 100%;
+      height: 90%;
+      overflow: scroll;
+    }
+    .footer {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      width: 100%;
+      text-align: center;
+      background-color: white;
+    }
+  }
+}
+.css-m043pk-MuiTableCell-root {
+  text-align: center !important;
+}
+.css-bqdb3c-MuiTableCell-root {
+  text-align: center !important;
+}
+.loading-overlay {
+  width: 100%;
+  // height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 9999;
+  margin: auto;
+}
